@@ -3,7 +3,8 @@ package com.codedotorg;
 import javafx.scene.control.Button;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
-
+import javafx.scene,control.Label;
+import javafx.scene.control.TextField;
 public class PetSelectionScene extends PetApp {
 
     /** The name of the pet provided by the user */
