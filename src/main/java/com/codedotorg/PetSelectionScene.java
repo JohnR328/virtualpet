@@ -28,7 +28,7 @@ public class PetSelectionScene extends PetApp {
      * and setting it as the scene to be displayed.
      */
     public void startApp() {
-        VBox petSelectionLayout = createPetSelectionLayout();
+        VBox petSelectionLayout = createPetSelectionLayout(createPetSelectionLayout);
         setAndShowScene(petSelectionLayout);
     }
 
